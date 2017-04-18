@@ -86,7 +86,7 @@ var ContentSync = function(options) {
     }
 
     if (typeof options.backup === 'undefined') {
-        options.backup = false;
+        options.backup = true;
     }
 
     // store the options to this object instance
